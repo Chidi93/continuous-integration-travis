@@ -13,6 +13,6 @@ env:
 jobs:
   include:
     - stage: build
-      script: script/build
+      script: script/testlinks
     - stage: testlinks
       script: REPLACE-ME-WITH-HTML-PROOFER-SCRIPT
